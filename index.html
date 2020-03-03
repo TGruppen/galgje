@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Rye&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Caladea:400,400i,700&display=swap" rel="stylesheet">
+
+	<title>Hangman</title>
+</head>
+
+<body>
+<div id="container">
+	<h1 id="h1-title">Hangman</h1>
+	<div class="row">
+		<div class="col-md-12">	
+			<div id="inputword-box" class="d-flex justify-content-around">
+				<div>
+					<label for="input-word" id="choose-your-word">Choose your word:</label>
+					<input type="password" id="input-word" name="input-word" placeholder=" here">
+					<button id="go-btn">Go!</button>
+				</div>
+				<div>
+					<button id="new-game">New Game</button>
+				</div>
+			
+		</div>
+	</div>
+</div>
+	<div id="sub-container">
+		<div class="row">
+			<div class="col-md-6">
+				<div id="hangman-box" class="d-flex flex-column justify-content-between">
+				
+						<label for="input-letter" id="pick-letter">Pick a letter</label>
+					
+					<div>
+						<input type="text" id="input-letter" name="input-letter" placeholder="your letter">
+					</div>
+
+					<div>
+						<button id="guess-btn">Guess!</button>
+					</div>
+
+					<div>
+						<span id="display-message">.</span>
+					</div>
+
+					<div id="remaining-lives">Remaining lives</div>
+
+					<div id="display-lives">10</div>
+					
+					
+					<span id="underscore-word">.</span>
+					
+					
+
+					
+
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div id="hangman-visual">
+
+				
+				</div>	
+			</div>
+			
+
+				
+			
+		</div>
+
+	</div>
+
+
+</div>				
+				
+	
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+<script type="text/javascript" src="script.js"></script>
+
+
+</body>
+</html>

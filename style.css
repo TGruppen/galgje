@@ -1,0 +1,81 @@
+html, body{
+	margin: 0;
+	height: 100%;
+	width: 100%;	
+	background-image: url("western-town.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+#h1-title{
+	text-align: center;
+	padding: 10px 0 30px 0;
+	font-family: "Rye";
+	font-size: 3.5em;
+}
+
+#inputword-box{
+	display: block;
+	margin: auto;
+	width: 50%;
+	padding-top: 5px;
+	text-align: center;
+	font-family: "Caladea";
+	font-weight: bold;
+	background-color: black;
+	opacity: 0.8;
+	border-radius: 5px;
+	color: white;
+}
+
+
+#sub-container{
+	margin: 25px 0 0 25%;
+	height: 30%;
+	width: 50%;
+	background-color: black;
+	opacity: 0.8;
+	border-radius: 5px;
+	color: white;
+}
+
+#hangman-box{
+	height: 80%;
+	width: 100%;
+	margin: 25px;
+	text-align: center;
+	font-family: "Caladea";
+	font-weight: bolder;
+	font-size: 1.2em;
+}
+
+
+#choose-your-word{
+	padding-right: 7px;
+}
+
+
+#hangman-visual{
+	margin: 25px;
+	width: 80%;
+	height: 300px;
+	background-color: white;
+}
+
+
+#underscore-word{
+	font-size: 40px;
+}
+
+
+#input-letter{
+	text-align: center;
+	font-size: 0.8em;
+}
+
+
+#remaining-lives{
+	font-size: 0.7em;
+}
